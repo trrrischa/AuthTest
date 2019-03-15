@@ -14,7 +14,6 @@
 		E12297622236D87E006FEE7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E12297612236D87E006FEE7D /* Assets.xcassets */; };
 		E12297652236D87E006FEE7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E12297632236D87E006FEE7D /* LaunchScreen.storyboard */; };
 		E122976D2236D9F4006FEE7D /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E122976C2236D9F4006FEE7D /* AuthViewController.swift */; };
-		E126626A22393012005B5AC4 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E126626922393012005B5AC4 /* AuthService.swift */; };
 		E1266271223A1AA4005B5AC4 /* ValidatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1266270223A1AA4005B5AC4 /* ValidatorProtocol.swift */; };
 		E1266273223A1AE2005B5AC4 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1266272223A1AE2005B5AC4 /* Validator.swift */; };
 		E1266275223A1AFA005B5AC4 /* Validator+Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1266274223A1AFA005B5AC4 /* Validator+Errors.swift */; };
@@ -34,7 +33,6 @@
 		E12297642236D87E006FEE7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E12297662236D87E006FEE7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E122976C2236D9F4006FEE7D /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
-		E126626922393012005B5AC4 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		E1266270223A1AA4005B5AC4 /* ValidatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorProtocol.swift; sourceTree = "<group>"; };
 		E1266272223A1AE2005B5AC4 /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
 		E1266274223A1AFA005B5AC4 /* Validator+Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Validator+Errors.swift"; sourceTree = "<group>"; };
@@ -95,7 +93,6 @@
 				E122975E2236D87C006FEE7D /* Main.storyboard */,
 				E12297612236D87E006FEE7D /* Assets.xcassets */,
 				E12297662236D87E006FEE7D /* Info.plist */,
-				E126626922393012005B5AC4 /* AuthService.swift */,
 			);
 			path = AuthTest;
 			sourceTree = "<group>";
@@ -265,7 +262,6 @@
 				E122975B2236D87C006FEE7D /* AppDelegate.swift in Sources */,
 				E126627A223A4DB0005B5AC4 /* URLConstants.swift in Sources */,
 				E1266273223A1AE2005B5AC4 /* Validator.swift in Sources */,
-				E126626A22393012005B5AC4 /* AuthService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
